@@ -1,0 +1,20 @@
+# Site settings
+title: Paul Cho
+description: Resume
+baseurl: ""
+url: "localhost:3000" 
+
+# User settings
+username: Paul Cho
+user_description: I'm a nomad Software Engineer, always searching for the next challenge.
+user_title: Software Engineer
+email: paulseokcho@gmail.com
+# twitter_username: lorem_ipsum
+github_username:  eightseconds
+# gplus_username:  lorem_ipsum
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
