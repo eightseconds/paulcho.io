@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <!-- <link rel="shortcut icon" type="image/png" href="/assets/favicon.png" > -->
 </head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144993082-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -31,14 +31,29 @@
         <span class="site-description">Software Engineer</span>
       </h1>
       <div class="header-icons">
-        <a aria-label="Send email" href="mailto:paulseokcho@gmail.com"><i class="icon fa fa-envelope"></i></a>
-        <!-- <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/"><i class="icon fa fa-instagram" aria-hidden="true"></i></a> -->
-        <a aria-label="My Resume" target="_blank" href="./resume.pdf"><i class="icon fa fa-file" aria-hidden="true"></i></a>
-        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/paul-cho-26809a129/"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
-        <a aria-label="My Github" target="_blank" href="https://github.com/eightseconds"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+        <div class="header-container">
+          <a aria-label="Send email" href="mailto:paulseokcho@gmail.com"><i class="icon fa fa-envelope"></i></a>
+          <span class="icon_text">Email</span>
+        </div>
+        <div class="header-container">
+          <a aria-label="My Resume" target="_blank" href="./resume.pdf"><i class="icon fa fa-file" aria-hidden="true"></i></a>
+          <span class="icon_text">Resume</span>
+        </div>
+        <div class="header-container">
+          <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/paul-cho-26809a129/"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+          <span class="icon_text">LinkedIn</span>
+        </div>
+        <div class="header-container">
+          <a aria-label="My Github" target="_blank" href="https://github.com/eightseconds"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+          <span class="icon_text">Github</span>
+        </div>
       </div>
+
+
+      <!-- <a class="resume" aria-label="My Resume" target="_blank" href="./resume.pdf">Resume</a> -->
+
       <div class="header-links">
-        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
+
       </div>
   </div>
   <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -46,6 +61,8 @@
 
       <section id="about">
         <div class="user-details">
+  <h1>My Skills</h1>
+    <span class="techs">Javascript, Redux, React, Node.js, Express, Ruby on Rails, PostgreSQL, MongoDB</span>
   <h1>My Story</h1>
   <p>I am a San Francisco-based fullstack software engineer, with a background in biology and healthcare administration. I decided to pursue software engineering full-time to develop the skills necessary to build an open-source EMR system.</p>
   <h1>My Projects</h2>
