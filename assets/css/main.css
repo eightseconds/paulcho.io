@@ -31,3 +31,8 @@ a.resume {
     margin-left: 10x;
     margin-right: 10px;
 }
+
+p.about_me {
+    max-width: 55rem;
+    margin: 0 auto;
+}
